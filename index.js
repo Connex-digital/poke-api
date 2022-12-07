@@ -2,6 +2,7 @@
 
 
 const findSearchpokemon = require("./searches/searchpokemon");
+const findSearchpokemonencounters = require("./searches/searchpokemonencounters");
 module.exports = {
   // This is just shorthand to reference the installed dependencies you have.
   // Zapier will need to know these before we can upload.
@@ -13,7 +14,8 @@ module.exports = {
 
   // If you want your searches to show up, you better include it here!
   searches: {
-    [findSearchpokemon.key]: findSearchpokemon
+    [findSearchpokemon.key]: findSearchpokemon,
+    [findSearchpokemonencounters.key]: findSearchpokemonencounters
   },
 
   // If you want your creates to show up, you better include it here!
