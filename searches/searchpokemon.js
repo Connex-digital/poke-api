@@ -14,7 +14,7 @@ module.exports = {
   noun: 'Searchpokemon',
 
   display: {
-    label: 'Find Searchpokemon',
+    label: 'Do a search for you favorite pokemon',
     description: 'Finds a searchpokemon based on name.'
   },
 
